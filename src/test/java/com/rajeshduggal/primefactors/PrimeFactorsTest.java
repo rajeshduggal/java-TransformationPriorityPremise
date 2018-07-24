@@ -9,5 +9,6 @@ public class PrimeFactorsTest {
     @Test
     public void primeFactors() throws Exception {
         assertEquals(asList(), of(1));
+        assertEquals(asList(2), of(2));
     }
 }

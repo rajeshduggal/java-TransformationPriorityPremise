@@ -10,6 +10,9 @@ public class PrimeFactors {
 	}
 
 	public static List<Integer> of(int n) {
-		return new ArrayList<Integer>();
+		ArrayList<Integer> factors = new ArrayList<Integer>();
+		if (n > 1)
+			factors.add(2);
+		return factors;
 	}
 }
