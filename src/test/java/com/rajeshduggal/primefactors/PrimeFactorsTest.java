@@ -17,5 +17,6 @@ public class PrimeFactorsTest {
         assertEquals(asList(7), of(7));
         assertEquals(asList(2, 2, 2), of(8));
         assertEquals(asList(3, 3), of(9));
+        assertEquals(asList(2,2,3,5,7,11,13), of(2*2*3*5*7*11*13));
     }
 }
